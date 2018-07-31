@@ -1,0 +1,26 @@
+# GREP Motifications
+alias grep="grep --color"
+alias grepp="grep -P --color"
+
+# MSU CSE and EGR server shortcuts
+alias sshb='ssh freedm28@black.cse.msu.edu'
+alias ssha='ssh freedm28@arctic.cse.msu.edu'
+alias sshegr='ssh freedm28@scully.egr.msu.edu'
+
+# cd to home directory
+alias h='cd ~'
+
+# cd to dev directory
+alias dev='cd ~/Developer'
+
+# clear with c
+alias c='clear'
+
+# Ask before deleting or overwriting
+alias rm='rm -i'
+alias cp='cp -v'
+alias mv='mv -v'
+
+alias gh='/usr/local/bin/gh.sh'
+
+alias weather='curl https://wttr.in'

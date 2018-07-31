@@ -1,0 +1,11 @@
+[user]
+	name = Joe Freedman
+	email = freedm28@msu.edu
+[color]
+	ui = true 
+[core]
+	editor = vi
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%C(yellow)%d %Cgreen%cr %Cblue%an%Creset %s' --date=relative --all
+[push]
+	default = simple
