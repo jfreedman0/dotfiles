@@ -15,6 +15,7 @@ fi
 export PATH="/usr/local/bin:$PATH"
 
 source ~/.aliases
+
 eval "$(pyenv init -)"
 eval "$(rbenv init -)"
 eval "$(nodenv init -)"
@@ -23,4 +24,4 @@ autoload -Uz promptinit
 promptinit
 prompt pure
 
-
+eval "$(hub alias -s)"

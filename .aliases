@@ -1,26 +1,24 @@
-# GREP Motifications
 alias grep="grep --color"
-alias grepp="grep -P --color"
+
+# Make some of the file manipulation programs verbose
+alias rm='rm -i'
+alias cp='cp -v'
+alias mv='mv -v'
+
+# clear with c
+alias c='clear'
 
 # MSU CSE and EGR server shortcuts
 alias sshb='ssh freedm28@black.cse.msu.edu'
 alias ssha='ssh freedm28@arctic.cse.msu.edu'
 alias sshegr='ssh freedm28@scully.egr.msu.edu'
 
-# cd to home directory
-alias h='cd ~'
+alias gh="hub browse"
 
-# cd to dev directory
-alias dev='cd ~/Developer'
+alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 
-# clear with c
-alias c='clear'
+alias diff="colordiff"
 
-# Ask before deleting or overwriting
-alias rm='rm -i'
-alias cp='cp -v'
-alias mv='mv -v'
-
-alias gh='/usr/local/bin/gh.sh'
+alias gcm='git checkout master'
 
 alias weather='curl https://wttr.in'
