@@ -15,7 +15,7 @@ alias sshegr='ssh freedm28@scully.egr.msu.edu'
 
 alias gh="hub browse"
 
-alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+alias brewup='brew update; brew upgrade; brew cask upgrade; brew prune; brew cleanup; brew cask cleanup; brew doctor'
 
 alias diff="colordiff"
 

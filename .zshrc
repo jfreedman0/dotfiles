@@ -25,3 +25,5 @@ promptinit
 prompt pure
 
 eval "$(hub alias -s)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

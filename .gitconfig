@@ -2,10 +2,23 @@
 	name = Joe Freedman
 	email = freedm28@msu.edu
 [color]
-	ui = true 
+	ui = true
 [core]
 	editor = vi
+	pager = diff-so-fancy | less --tabs=4 -RFX
 [alias]
-	lg = log --graph --pretty=format:'%Cred%h%C(yellow)%d %Cgreen%cr %Cblue%an%Creset %s' --date=relative --all
+    lo = log --pretty=oneline --abbrev-commit
 [push]
 	default = simple
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
