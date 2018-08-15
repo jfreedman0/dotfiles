@@ -1,9 +1,11 @@
 alias grep="grep --color"
+alias diff="colordiff"
 
 # Make some of the file manipulation programs verbose
-alias rm='rm -i'
 alias cp='cp -v'
 alias mv='mv -v'
+
+alias rm='rm -i'
 
 # clear with c
 alias c='clear'
@@ -16,9 +18,3 @@ alias sshegr='ssh freedm28@scully.egr.msu.edu'
 alias gh="hub browse"
 
 alias brewup='brew update; brew upgrade; brew cask upgrade; brew prune; brew cleanup; brew cask cleanup; brew doctor'
-
-alias diff="colordiff"
-
-alias gcm='git checkout master'
-
-alias weather='curl https://wttr.in'
